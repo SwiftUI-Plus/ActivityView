@@ -69,6 +69,7 @@ private final class ActivityViewControllerWrapper: UIViewController {
         if item.wrappedValue != nil {
             if !isActivityPresented {
                 let controller = UIActivityViewController(activityItems: item.wrappedValue?.items ?? [], applicationActivities: item.wrappedValue?.activities)
+                controller.excludedActivityTypes = item.wrappedValue?.excludedTypes
                 controller.popoverPresentationController?.permittedArrowDirections = permittedArrowDirections
                 controller.popoverPresentationController?.sourceView = view
                 controller.completionWithItemsHandler = { [weak self] (activityType, success, items, error) in
