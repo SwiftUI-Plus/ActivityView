@@ -2,13 +2,15 @@
 
 # ActivityView
 
+> Also available via the [SwiftUI+ Collection](https://benkau.com/packages.json)
+
 A SwiftUI view that enables you to properly present a `UIActivityViewController`.
 
 ## Features
 
-- Convenient modifier API
-- Correctly lays out full screen
-- Full support for `UIActivityViewController`
+-   Convenient modifier API
+-   Correctly lays out full screen
+-   Full support for `UIActivityViewController`
 
 ## Example
 
@@ -29,7 +31,7 @@ var body: some View {
 
 ## Installation
 
-The code is packaged as a framework. You can install manually (by copying the files in the `Sources` directory) or using Swift Package Manager (__preferred__)
+The code is packaged as a framework. You can install manually (by copying the files in the `Sources` directory) or using Swift Package Manager (**preferred**)
 
 To install using Swift Package Manager, add this to the `dependencies` section of your `Package.swift` file:
 
