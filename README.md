@@ -2,7 +2,7 @@
 
 # ActivityView
 
-> Also available via the [SwiftUI+ Collection](https://benkau.com/packages.json)
+> Also available as a part of my [SwiftUI+ Collection](https://benkau.com/packages.json) – just add it to Xcode 13+
 
 A SwiftUI view that enables you to properly present a `UIActivityViewController`.
 
