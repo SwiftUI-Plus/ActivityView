@@ -17,4 +17,14 @@ public struct ActivityItem {
         self.excludedTypes = excludedTypes
     }
     
+		/// An alternative initializer using array syntax (not variadic syntax)
+		/// - Parameters:
+		///   - items: The array of items to share via a `UIActivityViewController`
+		///   - activities: Custom activities you want to include in the sheet
+	public init(items: [Any], activities: [UIActivity] = [], excludedTypes: [UIActivity.ActivityType] = []) {
+		self.items = items
+		self.activities = activities
+		self.excludedTypes = excludedTypes
+	}
+
 }
